@@ -8,4 +8,19 @@
 
 import Foundation
 
+// sync & async
 
+public class Downloader: NSObject {
+    
+    public class func download(url: URL,
+                               session: URLSession = URLSession.shared) -> Data? {
+        
+        session.downloadTask(with: url, completionHandler: { url, reponse, error in
+            if let url = url, error == nil {
+                //
+            }
+        })
+        return nil
+    }
+    
+}

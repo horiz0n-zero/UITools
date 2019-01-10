@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		881506F721E66A6D00AEA447 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881506F621E66A6D00AEA447 /* Downloader.swift */; };
+		881506FA21E66FC200AEA447 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881506F921E66FC200AEA447 /* String.swift */; };
 		884BECBB217A0E170016E220 /* UITools.h in Headers */ = {isa = PBXBuildFile; fileRef = 884BECB9217A0E170016E220 /* UITools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		884BECC2217A0E4E0016E220 /* UIBlurColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884BECC1217A0E4E0016E220 /* UIBlurColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		881506F621E66A6D00AEA447 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		881506F921E66FC200AEA447 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		884BECB6217A0E170016E220 /* UITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884BECB9217A0E170016E220 /* UITools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITools.h; sourceTree = "<group>"; };
 		884BECBA217A0E170016E220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 			path = objects;
 			sourceTree = "<group>";
 		};
+		881506F821E66FB500AEA447 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				881506F921E66FC200AEA447 /* String.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		884BECAC217A0E170016E220 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		884BECB8217A0E170016E220 /* UITools */ = {
 			isa = PBXGroup;
 			children = (
+				881506F821E66FB500AEA447 /* extension */,
 				881506F521E66A5700AEA447 /* objects */,
 				881506F021E669D100AEA447 /* subclass */,
 				884BECB9217A0E170016E220 /* UITools.h */,
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881506FA21E66FC200AEA447 /* String.swift in Sources */,
 				881506F721E66A6D00AEA447 /* Downloader.swift in Sources */,
 				884BECC2217A0E4E0016E220 /* UIBlurColorView.swift in Sources */,
 			);
